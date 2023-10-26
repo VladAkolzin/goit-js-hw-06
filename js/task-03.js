@@ -20,4 +20,3 @@ const markUp = images
   )
   .join("");
 list.insertAdjacentHTML("afterbegin", markUp);
-console.log(list);

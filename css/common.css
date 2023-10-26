@@ -28,4 +28,5 @@ button {
 	flex-direction: column;
 	align-items: center;
 	gap: 30px;
+	list-style-type: none;
 }
