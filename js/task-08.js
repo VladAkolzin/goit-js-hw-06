@@ -9,9 +9,10 @@ function handleSubmit(event) {
     alert("Заповніть усі поля для введення даних");
   } else {
     const user = {
-      email: email.value,
-      password: password.value,
+      [email.name]: email.value,
+      [password.name]: password.value,
     };
+
     console.log(user);
     form.reset();
   }
